@@ -1,0 +1,17 @@
+name: SuperClearChat
+version: ${version}
+main: dev.l1cked.superclearchat.SuperClearChatPlugin
+description: ${description}
+api-version: '1.21'
+author: L1cked
+
+commands:
+  clearchat:
+    description: Clears visible chat for online players.
+    usage: /clearchat
+    permission: clearchat.use
+
+permissions:
+  clearchat.use:
+    description: Allows using /clearchat.
+    default: op
